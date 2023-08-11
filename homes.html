@@ -1,0 +1,1237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Заголовок страницы в браузере -->
+	<title>Построить дом</title>
+	<!--- SWIPER --->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css?_v=20230613225033" />
+	<!-- Подключаем CSS -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20230613225033">
+	<!-- Кодировка страницы -->
+	<!-- С появлением HTML5 можно использовать  -->
+	<meta charset="UTF-8">
+	<!-- Настройки адаптивности страницы  -->
+	<!-- Адаптивность  -->
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0, user-scalable=0">
+	<!---maximum-scale=1.0, user-scalable=0--->
+	<!-- Отключает формирование ссылки у номера телефона на iOS -->
+	<!---<meta name="format-detection" content="telephone=no">--->
+
+	<!-- Краткое описание страницы  -->
+	<meta name="description" content="Domosbor, интернет магазин мебели">
+	<!-- Ключевые слова страницы  -->
+	<meta name="keywords" content="Domosbor, мебель, интернет магазин">
+
+	<!-- Управление доступом поисковых роботов к странице -->
+	<!-- Запрет индексации страницы полностью -->
+	<!---<meta name="robots" content="none">--->
+
+	<!-- Автор страницы -->
+	<meta name="Author" content="shms59">
+	<!-- Авторские права -->
+	<meta name="Copyright" content="2023">
+	<!-- Адрес автора -->
+	<meta name="Address" content="">
+
+	<!-- локализация сайта, для русскоязычного сайта ru_RU -->
+	<meta property="og:locale" content="ru_RU">
+	<!-- тип контента, по умолчанию используется article -->
+	<meta property="og:type" content="article">
+	<!-- заголовок страницы, который будет выводится в записи социальной сети -->
+	<meta property="og:title" content="Domosbor">
+	<!-- описание страницы -->
+	<meta property="og:description" content="Domosbor Интернет магазин мебели">
+	<!-- ссылка на изображение, которое будет публиковаться в записи -->
+	<meta property="og:image" content="">
+	<!-- ссылка на текущую страницу -->
+	<meta property="og:url" content="">
+	<!-- название сайта -->
+	<meta property="og:site_name" content="Domosbor">
+
+	<!-- Тип карты, по умолчанию используется summary -->
+	<meta name="twitter:card" content="summary">
+	<!-- Имя/логин автора -->
+	<meta name="twitter:site" content="">
+	<!-- Название страницы -->
+	<meta name="twitter:title" content="">
+	<!-- Описание страницы -->
+	<meta name="twitter:description" content="">
+	<!-- Cсылка на изображение -->
+	<meta name="twitter:image" content="">
+</head>
+
+<body class="">
+	<div class="wrapper">
+		<div class="full-screen">
+			<header class="header ">
+	<div class="header__wrapper">
+		<div class='header__container _container'>
+			<nav class="header__navigation">
+				<button data-da=".header__container,767,last" type="button" class="header__icon-menu">
+					<span></span>
+				</button>
+				<div data-da=".burger__body,767,1" class="header__search search-header">
+					<button type="button" class="search-header__open _icon-search"></button>
+					<div class="search-header__hidden">
+						<form action="#" method="POST" class="search-header__body">
+							<input type="text" autocomplete="off" placeholder="Поиск..." class="search-header__input">
+							<button type="submit" data-tippy-content="Find" class="search-header__icon _icon-search"></button>
+						</form>
+					</div>
+
+				</div>
+				<div data-da=".burger__actions,767,first" data-tippy-content="Choose Language" choose-one
+					class="header__languages">
+					<a choose-one-item href="#" class="header__language _active-choose">RU</a>
+					<a choose-one-item href="#" class="header__language">EN</a>
+				</div>
+			</nav>
+			<a href="home.html" class="header__logo">
+				<img src="img/logo.svg" alt="logo">
+			</a>
+			<div data-da=".burger__actions,767,last" class="header__actions">
+				<a href="exchange.html" class="header__action exchange _icon-exchange"></a>
+				<a href="favourite.html" class="header__action favourite _icon-heart"></a>
+				<a href="#" class="header__action entrance _icon-entrance"></a>
+			</div>
+			<div class="header__call call-header">
+				<div data-da=".burger__body,767,2" class="call-header__block">
+					<a href="8 800 301-50-51" class="call-header__number">
+						8 (800) 301-50-51
+					</a>
+					<a href="#" class="call-header__link call">
+						Заказать обратный звонок
+					</a>
+				</div>
+				<a href="#" class="call-header__icon call _icon-phone"></a>
+			</div>
+		</div>
+
+	</div>
+	<article class="header__burger burger">
+		<div class='burger__container _container'>
+			<div class="burger__body">
+				<div class="burger__actions">
+
+				</div>
+				<!-----SEARCH--->
+				<nav class="burger__menu menu-burger">
+					<div class="menu-burger__body">
+						<div data-tabs class='menu-burger__tabs'>
+							<div data-spollers="767,max" class='menu-burger__items'>
+								<div class=" menu-burger__block ">
+									<button data-spoller data-tab='.menu-burger-build'
+										class='menu-burger__item _active-tab _icon-arrow-short-down'>Построить</button>
+									<div class="menu-burger__block_1">
+
+									</div>
+								</div>
+								<div class="menu-burger__block ">
+									<button data-spoller data-tab='.menu-burger-buy'
+										class='menu-burger__item _icon-arrow-short-down'>Купить</button>
+									<div class="menu-burger__block_2">
+
+									</div>
+								</div>
+								<div class="menu-burger__block ">
+									<button data-spoller data-tab='.menu-burger-sent'
+										class='menu-burger__item _icon-arrow-short-down'>Арендовать</button>
+									<div class="menu-burger__block_3">
+
+									</div>
+								</div>
+							</div>
+							<div data-tabs-content class='menu-burger__content'>
+								<div data-da=".menu-burger__block_1,767,last"
+									class='menu-burger__element element-burger menu-burger-build _active-tab'>
+									<div data-spollers="767,max" class="element-burger__body">
+										<div class="element-burger__block">
+											<div class="element-burger__label">DOMOSBOR - Магазин</div>
+											<div class="element-burger__label">DOMOSBOR - Форум</div>
+											<button type="button" data-spoller
+												class="element-burger__label _icon-arrow-short-down">Типы
+												строений</button>
+											<div class="element-burger__hidden">
+												<ul class="element-burger__list">
+													<li class="element-burger__item"><a href="homes.html"
+															class="element-burger__link">Дома</a></li>
+													<li class="element-burger__item"><a href="#"
+															class="element-burger__link">Бани</a></li>
+													<li class="element-burger__item"><a href="bathhouse.html"
+															class="element-burger__link">Гаражи</a></li>
+													<li class="element-burger__item"><a href="canopy.html"
+															class="element-burger__link">Навесы</a></li>
+													<li class="element-burger__item"><a href="objects.html"
+															class="element-burger__link">Коммерческие объекты</a></li>
+												</ul>
+											</div>
+										</div>
+										<div class="element-burger__block">
+											<button type="button" data-spoller
+												class="element-burger__label _icon-arrow-short-down">Технологии</button>
+											<div class="element-burger__hidden">
+												<ul class="element-burger__list">
+													<li class="element-burger__item"><a href="glued-timber.html"
+															class="element-burger__link">Клееный
+															брус</a></li>
+													<li class="element-burger__item"><a href="carriage.html"
+															class="element-burger__link">Лафет</a></li>
+													<li class="element-burger__item"><a href="half-timbered.html"
+															class="element-burger__link">Фахверковые</a></li>
+													<li class="element-burger__item"><a href="felled-tree.html"
+															class="element-burger__link">Рубленное бревно</a></li>
+													<li class="element-burger__item"><a href="sceleton.html"
+															class="element-burger__link">Каркасные</a></li>
+													<li class="element-burger__item"><a href="panels.html"
+															class="element-burger__link">CLT
+															панели</a></li>
+													<li class="element-burger__item"><a href="panel-sceleton.html"
+															class="element-burger__link">Панельно-каркасные</a></li>
+													<li class="element-burger__item"><a href="kelo.html"
+															class="element-burger__link">Kelo
+															(кело)</a></li>
+												</ul>
+											</div>
+										</div>
+										<div class="element-burger__block">
+											<button type="button" data-spoller
+												class="element-burger__label _icon-arrow-short-down">Магазин</button>
+											<div class="element-burger__hidden">
+												<ul class="element-burger__list">
+													<li class="element-burger__item"><a href="farms.html"
+															class="element-burger__link">Фермы
+															на МЗП</a></li>
+													<li class="element-burger__item"><a href="exterior-finish.html"
+															class="element-burger__link">Наружная отделка</a></li>
+													<li class="element-burger__item"><a href="exterior-bathhouse.html"
+															class="element-burger__link">Отделка
+															бань и саун</a></li>
+													<li class="element-burger__item"><a href="thermal-wood.html"
+															class="element-burger__link">Термодревисина</a></li>
+													<li class="element-burger__item"><a href="terrace.html"
+															class="element-burger__link">Терраса</a></li>
+													<li class="element-burger__item"><a href="painted-wood.html"
+															class="element-burger__link">
+															Крашенная древисина</a></li>
+													<li class="element-burger__item"><a href="exterior-in.html"
+															class="element-burger__link">Внутренняя отделка</a></li>
+													<li class="element-burger__item"><a href="windows.html"
+															class="element-burger__link">Окна</a></li>
+												</ul>
+											</div>
+										</div>
+										<div class="element-burger__block">
+											<button type="button" data-spoller
+												class="element-burger__label _icon-arrow-short-down">Сервис</button>
+											<div class="element-burger__hidden">
+												<ul class="element-burger__list">
+													<li class="element-burger__item"><a href="#" class="element-burger__link">О
+															сервисе</a></li>
+													<li class="element-burger__item"><a href="gallery.html"
+															class="element-burger__link">Галерея</a></li>
+													<li class="element-burger__item"><a href="blog.html"
+															class="element-burger__link">Блог</a></li>
+													<li class="element-burger__item"><a href="reviews.html"
+															class="element-burger__link">Отзывы</a></li>
+													<li class="element-burger__item"><a href="service.html"
+															class="element-burger__link">Услуги</a></li>
+												</ul>
+											</div>
+										</div>
+										<div class="element-burger__block">
+											<button type="button" data-spoller
+												class="element-burger__label _icon-arrow-short-down">Информация</button>
+											<div class="element-burger__hidden">
+												<ul class="element-burger__list">
+													<li class="element-burger__item"><a href="pay.html" class="element-burger__link">
+															Оплата</a></li>
+													<li class="element-burger__item"><a href="documents.html"
+															class="element-burger__link">Документы</a></li>
+													<li class="element-burger__item"><a href="contacts.html"
+															class="element-burger__link">Контакты</a></li>
+													<li class="element-burger__item"><a href="reviews.html"
+															class="element-burger__link">Отзывы</a></li>
+													<li class="element-burger__item"><a href="collaboration.html"
+															class="element-burger__link">Сотрудничество</a></li>
+												</ul>
+											</div>
+										</div>
+										<div class="element-burger__block">
+											<button type="button" data-spoller
+												class="element-burger__label _icon-arrow-short-down">Партнеры
+												сервиса</button>
+											<div class="element-burger__hidden">
+												<ul class="element-burger__list">
+													<li class="element-burger__item"><a href="architects.html"
+															class="element-burger__link">
+															Архитекторы</a></li>
+													<li class="element-burger__item"><a href="design.html"
+															class="element-burger__link">Дизайнеры</a></li>
+													<li class="element-burger__item"><a href="contacts.html"
+															class="element-burger__link">Контакты</a></li>
+													<li class="element-burger__item"><a href="factories.html"
+															class="element-burger__link">Заводы</a></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div data-da=".menu-burger__block_2,767,last" class='menu-burger__element menu-burger-buy'>
+									<div data-spollers="767,max" class="element-burger__body">
+										<div class="element-burger__block">
+											<div class="element-burger__label">DOMOSBOR - Магазин</div>
+											<div class="element-burger__label">DOMOSBOR - Форум</div>
+											<button type="button" data-spoller
+												class="element-burger__label _icon-arrow-short-down">Типы
+												строений</button>
+											<div class="element-burger__hidden">
+												<ul class="element-burger__list">
+													<li class="element-burger__item"><a href="homes.html"
+															class="element-burger__link">Дома</a></li>
+													<li class="element-burger__item"><a href="bathhouse.html"
+															class="element-burger__link">Бани</a></li>
+													<li class="element-burger__item"><a href="garage.html"
+															class="element-burger__link">Гаражи</a></li>
+													<li class="element-burger__item"><a href="canopy.html"
+															class="element-burger__link">Навесы</a></li>
+													<li class="element-burger__item"><a href="objects.html"
+															class="element-burger__link">Коммерческие объекты</a></li>
+												</ul>
+											</div>
+										</div>
+										<div class="element-burger__block">
+											<button type="button" data-spoller
+												class="element-burger__label _icon-arrow-short-down">Технологии</button>
+											<div class="element-burger__hidden">
+												<ul class="element-burger__list">
+													<li class="element-burger__item"><a href="glued-timber.html"
+															class="element-burger__link">Клееный
+															брус</a></li>
+													<li class="element-burger__item"><a href="carriage.html"
+															class="element-burger__link">Лафет</a></li>
+													<li class="element-burger__item"><a href="half-timbered.html"
+															class="element-burger__link">Фахверковые</a></li>
+													<li class="element-burger__item"><a href="felled-tree.html"
+															class="element-burger__link">Рубленное бревно</a></li>
+													<li class="element-burger__item"><a href="sceleton.html"
+															class="element-burger__link">Каркасные</a></li>
+													<li class="element-burger__item"><a href="panels.html"
+															class="element-burger__link">CLT
+															панели</a></li>
+													<li class="element-burger__item"><a href="panel-sceleton.html"
+															class="element-burger__link">Панельно-каркасные</a></li>
+													<li class="element-burger__item"><a href="kelo.html"
+															class="element-burger__link">Kelo
+															(кело)</a></li>
+												</ul>
+											</div>
+										</div>
+										<div class="element-burger__block">
+											<button type="button" data-spoller
+												class="element-burger__label _icon-arrow-short-down">Магазин</button>
+											<div class="element-burger__hidden">
+												<ul class="element-burger__list">
+													<li class="element-burger__item"><a href="farms.html"
+															class="element-burger__link">Фермы
+															на МЗП</a></li>
+													<li class="element-burger__item"><a href="exterior-finish.html"
+															class="element-burger__link">Наружная отделка</a></li>
+													<li class="element-burger__item"><a href="exterior-bathhouse.html"
+															class="element-burger__link">Отделка
+															бань и саун</a></li>
+													<li class="element-burger__item"><a href="thermal-wood.html"
+															class="element-burger__link">Термодревисина</a></li>
+													<li class="element-burger__item"><a href="terrace.html"
+															class="element-burger__link">Терраса</a></li>
+													<li class="element-burger__item"><a href="painted-wood.html"
+															class="element-burger__link">
+															Крашенная древисина</a></li>
+													<li class="element-burger__item"><a href="exterior-in.html"
+															class="element-burger__link">Внутренняя отделка</a></li>
+													<li class="element-burger__item"><a href="windows.html"
+															class="element-burger__link">Окна</a></li>
+												</ul>
+											</div>
+										</div>
+										<div class="element-burger__block">
+											<button type="button" data-spoller
+												class="element-burger__label _icon-arrow-short-down">Сервис</button>
+											<div class="element-burger__hidden">
+												<ul class="element-burger__list">
+													<li class="element-burger__item"><a href="service.html"
+															class="element-burger__link">О
+															сервисе</a></li>
+													<li class="element-burger__item"><a href="gallery.html"
+															class="element-burger__link">Галерея</a></li>
+													<li class="element-burger__item"><a href="blog.html"
+															class="element-burger__link">Блог</a></li>
+													<li class="element-burger__item"><a href="reviews.html"
+															class="element-burger__link">Отзывы</a></li>
+													<li class="element-burger__item"><a href="service.html"
+															class="element-burger__link">Услуги</a></li>
+												</ul>
+											</div>
+										</div>
+										<div class="element-burger__block">
+											<button type="button" data-spoller
+												class="element-burger__label _icon-arrow-short-down">Информация</button>
+											<div class="element-burger__hidden">
+												<ul class="element-burger__list">
+													<li class="element-burger__item"><a href="pay.html" class="element-burger__link">
+															Оплата</a></li>
+													<li class="element-burger__item"><a href="documents.html"
+															class="element-burger__link">Документы</a></li>
+													<li class="element-burger__item"><a href="contacts.html"
+															class="element-burger__link">Контакты</a></li>
+													<li class="element-burger__item"><a href="reviews.html"
+															class="element-burger__link">Отзывы</a></li>
+													<li class="element-burger__item"><a href="collaboration.html"
+															class="element-burger__link">Сотрудничество</a></li>
+												</ul>
+											</div>
+										</div>
+										<div class="element-burger__block">
+											<button type="button" data-spoller
+												class="element-burger__label _icon-arrow-short-down">Партнеры
+												сервиса</button>
+											<div class="element-burger__hidden">
+												<ul class="element-burger__list">
+													<li class="element-burger__item"><a href="architects.html"
+															class="element-burger__link">
+															Архитекторы</a></li>
+													<li class="element-burger__item"><a href="design.html"
+															class="element-burger__link">Дизайнеры</a></li>
+													<li class="element-burger__item"><a href="contacts.html"
+															class="element-burger__link">Контакты</a></li>
+													<li class="element-burger__item"><a href="factories.html"
+															class="element-burger__link">Заводы</a></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div data-da=".menu-burger__block_3,767,last" class='menu-burger__element menu-burger-sent'>
+									<div data-spollers="767,max" class="element-burger__body">
+										<div class="element-burger__block">
+											<div class="element-burger__label">DOMOSBOR - Магазин</div>
+											<div class="element-burger__label">DOMOSBOR - Форум</div>
+											<button type="button" data-spoller
+												class="element-burger__label _icon-arrow-short-down">Типы
+												строений</button>
+											<div class="element-burger__hidden">
+												<ul class="element-burger__list">
+													<li class="element-burger__item"><a href="homes.html"
+															class="element-burger__link">Дома</a></li>
+													<li class="element-burger__item"><a href="bathhouse.html"
+															class="element-burger__link">Бани</a></li>
+													<li class="element-burger__item"><a href="garage.html"
+															class="element-burger__link">Гаражи</a></li>
+													<li class="element-burger__item"><a href="canopy.html"
+															class="element-burger__link">Навесы</a></li>
+													<li class="element-burger__item"><a href="objects.html"
+															class="element-burger__link">Коммерческие объекты</a></li>
+												</ul>
+											</div>
+										</div>
+										<div class="element-burger__block">
+											<button type="button" data-spoller
+												class="element-burger__label _icon-arrow-short-down">Технологии</button>
+											<div class="element-burger__hidden">
+												<ul class="element-burger__list">
+													<li class="element-burger__item"><a href="glued-timber.html"
+															class="element-burger__link">Клееный
+															брус</a></li>
+													<li class="element-burger__item"><a href="carriage.html"
+															class="element-burger__link">Лафет</a></li>
+													<li class="element-burger__item"><a href="half-timbered.html"
+															class="element-burger__link">Фахверковые</a></li>
+													<li class="element-burger__item"><a href="felled-tree.html"
+															class="element-burger__link">Рубленное бревно</a></li>
+													<li class="element-burger__item"><a href="sceleton.html"
+															class="element-burger__link">Каркасные</a></li>
+													<li class="element-burger__item"><a href="panels.html"
+															class="element-burger__link">CLT
+															панели</a></li>
+													<li class="element-burger__item"><a href="panel-sceleton.html"
+															class="element-burger__link">Панельно-каркасные</a></li>
+													<li class="element-burger__item"><a href="kelo.html"
+															class="element-burger__link">Kelo
+															(кело)</a></li>
+												</ul>
+											</div>
+										</div>
+										<div class="element-burger__block">
+											<button type="button" data-spoller
+												class="element-burger__label _icon-arrow-short-down">Магазин</button>
+											<div class="element-burger__hidden">
+												<ul class="element-burger__list">
+													<li class="element-burger__item"><a href="farms.html"
+															class="element-burger__link">Фермы
+															на МЗП</a></li>
+													<li class="element-burger__item"><a href="exterior-finish.html"
+															class="element-burger__link">Наружная отделка</a></li>
+													<li class="element-burger__item"><a href="exterior-bathhouse.html"
+															class="element-burger__link">Отделка
+															бань и саун</a></li>
+													<li class="element-burger__item"><a href="thermal-wood.html"
+															class="element-burger__link">Термодревисина</a></li>
+													<li class="element-burger__item"><a href="terrace.html"
+															class="element-burger__link">Терраса</a></li>
+													<li class="element-burger__item"><a href="painted-wood.html"
+															class="element-burger__link">
+															Крашенная древисина</a></li>
+													<li class="element-burger__item"><a href="exterior-in.html"
+															class="element-burger__link">Внутренняя отделка</a></li>
+													<li class="element-burger__item"><a href="windows.html"
+															class="element-burger__link">Окна</a></li>
+												</ul>
+											</div>
+										</div>
+										<div class="element-burger__block">
+											<button type="button" data-spoller
+												class="element-burger__label _icon-arrow-short-down">Сервис</button>
+											<div class="element-burger__hidden">
+												<ul class="element-burger__list">
+													<li class="element-burger__item"><a href="service.html"
+															class="element-burger__link">О
+															сервисе</a></li>
+													<li class="element-burger__item"><a href="gallery.html"
+															class="element-burger__link">Галерея</a></li>
+													<li class="element-burger__item"><a href="blog.html"
+															class="element-burger__link">Блог</a></li>
+													<li class="element-burger__item"><a href="reviews.html"
+															class="element-burger__link">Отзывы</a></li>
+													<li class="element-burger__item"><a href="service.html"
+															class="element-burger__link">Услуги</a></li>
+												</ul>
+											</div>
+										</div>
+										<div class="element-burger__block">
+											<button type="button" data-spoller
+												class="element-burger__label _icon-arrow-short-down">Информация</button>
+											<div class="element-burger__hidden">
+												<ul class="element-burger__list">
+													<li class="element-burger__item"><a href="pay.html" class="element-burger__link">
+															Оплата</a></li>
+													<li class="element-burger__item"><a href="documents.html"
+															class="element-burger__link">Документы</a></li>
+													<li class="element-burger__item"><a href="contacts.html"
+															class="element-burger__link">Контакты</a></li>
+													<li class="element-burger__item"><a href="reviews.html"
+															class="element-burger__link">Отзывы</a></li>
+													<li class="element-burger__item"><a href="collaboration.html"
+															class="element-burger__link">Сотрудничество</a></li>
+												</ul>
+											</div>
+										</div>
+										<div class="element-burger__block">
+											<button type="button" data-spoller
+												class="element-burger__label _icon-arrow-short-down">Партнеры
+												сервиса</button>
+											<div class="element-burger__hidden">
+												<ul class="element-burger__list">
+													<li class="element-burger__item"><a href="architects.html"
+															class="element-burger__link">
+															Архитекторы</a></li>
+													<li class="element-burger__item"><a href="design.html"
+															class="element-burger__link">Дизайнеры</a></li>
+													<li class="element-burger__item"><a href="contacts.html"
+															class="element-burger__link">Контакты</a></li>
+													<li class="element-burger__item"><a href="factories.html"
+															class="element-burger__link">Заводы</a></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</nav>
+			</div>
+		</div>
+	</article>
+	<div class="header__entrance entrance-header">
+		<div class='entrance-header__container _container'>
+			<div class="entrance-header__body">
+				<div data-tabs class='entrance-header__tabs forms-tabs'>
+					<div class='entrance-header__tab-items forms-tabs__items'>
+						<button data-tab='.classical'
+							class='entrance-header__tab forms-tabs__tab _tab-button _active-tab'>Пользователь
+						</button>
+						<button data-tab='.professional'
+							class='entrance-header__tab forms-tabs__tab _tab-button'>Профессионал</button>
+					</div>
+					<div data-tabs-content class='entrance-header__forms forms-tabs__forms'>
+						<form action="#" method="POST"
+							class="entrance-header__form form-entrance forms-tabs__form form-tabs classical _active-tab _gray-form">
+							<div class="form-entrance__body form-tabs__body">
+								<div class="form-entrance__block">
+									<h2 class="form-entrance__title">
+										Электронная почта / Телефон
+									</h2>
+									<div class="form-tabs__item _white-input _flying-input">
+
+										<input required tabindex="1" type="text" autocomplete="off" validation
+											class="form-tabs__input">
+										<label class="form-tabs__label">Email</label>
+									</div>
+								</div>
+								<div class="form-entrance__block">
+									<h2 class="form-entrance__title">
+										Пароль
+									</h2>
+									<div class="form-tabs__item _white-input _flying-input">
+
+										<input required tabindex="2" type="text" autocomplete="off" class="form-tabs__input">
+										<label class="form-tabs__label">Пароль</label>
+									</div>
+								</div>
+								<button tabindex="3" type="submit" class="form-tabs__button _btn-green">
+									Войти
+								</button>
+								<a href="#" class="form-entrance__link registry">Регистрация</a>
+								<div class="form-entrance__icons">
+									<a href="#" class="form-entrance__icon _icon-google-alt"></a>
+									<a href="#" class="form-entrance__icon _icon-yandex"></a>
+									<a href="#" class="form-entrance__icon _icon-vk"></a>
+								</div>
+							</div>
+						</form>
+						<form action="#" method="POST"
+							class="entrance-header__form form-entrance forms-tabs__form form-tabs professional _gray-form">
+							<div class="form-entrance__body form-tabs__body">
+								<div class="form-entrance__block">
+									<h2 class="form-entrance__title">
+										Электронная почта / Телефон
+									</h2>
+									<div class="form-tabs__item _white-input _flying-input">
+
+										<input required tabindex="4" type="text" autocomplete="off" validation
+											class="form-tabs__input ">
+										<label class="form-tabs__label">Email</label>
+									</div>
+								</div>
+								<div class="form-entrance__block">
+									<h2 class="form-entrance__title">
+										Пароль
+									</h2>
+									<div class="form-tabs__item _white-input _flying-input">
+
+										<input required tabindex="5" type="text" autocomplete="off" class="form-tabs__input ">
+										<label class="form-tabs__label">Пароль</label>
+									</div>
+								</div>
+								<button tabindex="6" type="submit" class="form-tabs__button _btn-green">
+									Войти
+								</button>
+								<a href="#" class="form-entrance__link registry">Регистрация</a>
+							</div>
+						</form>
+					</div>
+				</div>
+				<nav class="entrance-header__actions actions-entrance">
+					<h2 class="actions-entrance__title">
+						Domosbor <span> PRO</span>
+					</h2>
+					<div class="actions-entrance__body">
+						<a data-tippy-content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet elementum eu sed sed. Nulla semper euismod nam posuere egestas lorem venenatis. At urna cum pulvinar arcu morbi elementum amet et enim. Tincidunt venenatis, turpis facilisi tempor nunc, eget netus nunc risus."
+							href="#" class="actions-entrance__button _btn-green">Сдать объект</a>
+						<a href="#" class="actions-entrance__button _btn-green">Продать объект</a>
+						<a href="#" class="actions-entrance__button _btn-green">Стать партнером сервиса</a>
+					</div>
+				</nav>
+			</div>
+		</div>
+	</div>
+	<div class="header__registration registration-header">
+		<div class='registration-header__container _container'>
+			<div class="registration-header__body">
+				<h2 class="registration-header__title">
+					Регистрация
+				</h2>
+				<h3 class="registration-header__sub-title">
+					Введите почту и пароль
+				</h3>
+				<form action="#" method="POST" class="registration-header__form form-registration">
+					<div class="form-registration__body">
+						<div class="form-registration__item _gray-input _flying-input">
+
+							<input type="text" autocomplete="off" validation class="form-registration__input ">
+							<label class="form-registration__label">Электронная почта</label>
+						</div>
+						<div class="form-registration__item _gray-input _flying-input">
+
+							<input type="text" autocomplete="off" class="form-registration__input">
+							<label class="form-registration__label">Пароль </label>
+						</div>
+						<div class="form-registration__item _gray-input _flying-input">
+							<label class="form-registration__label">Пароль повторно</label>
+							<input type="text" autocomplete="off" class="form-registration__input">
+						</div>
+						<button class="form-registration__button _btn-green">Регистрация</button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+	<div class="header__connect connect-header">
+		<div class='connect-header__container _container'>
+			<div class="connect-header__body">
+				<h2 class="connect-header__title">ФОРМА СВЯЗИ</h2>
+
+				<form action="#" method="post" class="connect-header__form form-main">
+	<div class="form-main__body">
+		<div class="form-main__input _gray-input _flying-input">
+			<input type="text" autocomplete="off" required class="form-main__field">
+			<label class="main-form__label">
+				Имя
+			</label>
+		</div>
+		<div class="form-main__input _gray-input _flying-input">
+			<input type="text" autocomplete="off" validation required class="form-main__field">
+			<label class="main-form__label">
+				Электронная почта
+			</label>
+		</div>
+		<div class="form-main__input _gray-input _flying-input">
+			<input type="tel" autocomplete="off" required class="form-main__field">
+			<label class="main-form__label">
+				Телефон
+			</label>
+		</div>
+		<div class="form-main__input _gray-input">
+			<textarea placeholder="Сообщение" maxlength="300" style="resize: none; appearance: none;" type="text"
+				autocomplete="off" class="form-main__field"></textarea>
+		</div>
+		<div class="form-main__files files-form">
+			<input type="file" class="files-form__input">
+			<span class="plus-icon files-form__icon">
+				<span class="filter"></span>
+				<span class="filter"></span>
+			</span>
+			<div class="files-form__text">
+				Прикрепить файлы
+			</div>
+		</div>
+		<button type="submit" class="form-main__button _btn-green">
+			Отправить
+		</button>
+		<div class="form-main__icons">
+			<a href="#" class="form-main__icon _icon-telegram"></a>
+			<a href="#" class="form-main__icon _icon-whatsapp"></a>
+			<a href="#" class="form-main__icon _icon-viber"></a>
+		</div>
+	</div>
+</form>
+			</div>
+		</div>
+	</div>
+</header>
+			<nav class="breadcrumbs search-breadcrumbs">
+				<div class='breadcrumbs__container _container'>
+					<div class="breadcrumbs__body">
+						<ul class="breadcrumbs__list">
+							<li class="breadcrumbs__item"><a href="home.html" class="breadcrumbs__link breadcrumbs__link_prev">
+									Главная
+								</a></li>
+							<li class="breadcrumbs__item"><a href="home.html" class="breadcrumbs__link breadcrumbs__link_prev">
+									/
+								</a></li>
+							<li class="breadcrumbs__item"><a href="homes.html"
+									class="breadcrumbs__link breadcrumbs__link_next">
+									Дома
+								</a></li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+			<div class="title-block search-title">
+				<div class='title-block__container _container'>
+					<h1 class="title-block__main-title">
+						Построить дом
+					</h1>
+				</div>
+			</div>
+			<main class="page page-building page-homes">
+				<section class="page__information information information_homes">
+					<div class='information__container _container'>
+
+						<div class="information__body">
+							<div class="information__text-block">
+								<div class="information__text">
+									<p><span>Собственный деревянный дом </span> — это жильё, котором всё сделано с учётом личных
+										потребностей
+										и предпочтений. Чистый воздух, возможность самостоятельного планирования участка
+										(при желании можно дополнительно возвести баню, гараж, навес и иное необходимое
+										сооружение) и возможность выращивания овощей и фруктов — всё это вы получаете в частном
+										доме.
+
+									</p>
+									<p><span>А ещё дом из дерева — это экологическая безопасность </span>, долговечность,
+										неповторимый внешний
+										вид и необыкновенные впечатления. Только представьте, как приятно отдыхать на собственной
+										территории! Можно приготовить мясо, поиграть в активные игры, позагорать или просто
+										почитать книгу в гамаке.</p>
+								</div>
+
+							</div>
+							<div class="information__image">
+								<picture><source srcset="img/information/02.webp" type="image/webp"><img src="img/information/02.png" alt="image"></picture>
+							</div>
+						</div>
+
+					</div>
+				</section>
+				<section class="page-building__main-filter main-filter">
+					<div class='main-filter__container _container'>
+						<div class="main-filter__body">
+							<div class="main-filter__ranges">
+								<div class="main-filter__item">
+									<div class="main-filter__label _label">
+										Стоимость, ₽
+									</div>
+									<div data-range class="main-filter__range main-range">
+										<div class="main-range__inputs">
+											<span>от</span>
+											<input data-range-from="0" value="100" type="text" class="main-range__input">
+											<span>до</span>
+											<input data-range-to="5000" value="1000" type="text" class="main-range__input">
+										</div>
+										<div data-range-item class="main-range__item"></div>
+									</div>
+								</div>
+								<div class="main-filter__item">
+									<div class="main-filter__label _label">
+										Общая площадь, м²
+									</div>
+									<div data-range class="main-filter__range main-range">
+										<div class="main-range__inputs">
+											<span>от</span>
+											<input data-range-from="0" value="100" type="text" class="main-range__input">
+											<span>до</span>
+											<input data-range-to="5000" value="1000" type="text" class="main-range__input">
+										</div>
+										<div data-range-item class="main-range__item"></div>
+									</div>
+								</div>
+								<div class="main-filter__item">
+									<div class="main-filter__label _label">
+										Жилая площадь, м²
+									</div>
+									<div data-range class="main-filter__range main-range">
+										<div class="main-range__inputs">
+											<span>от</span>
+											<input data-range-from="0" value="100" type="text" class="main-range__input">
+											<span>до</span>
+											<input data-range-to="5000" value="1000" type="text" class="main-range__input">
+										</div>
+										<div data-range-item class="main-range__item"></div>
+									</div>
+								</div>
+								<div class="main-filter__item">
+									<div class="main-filter__label _label">
+										Ширина здания, м
+									</div>
+									<div data-range class="main-filter__range main-range">
+										<div class="main-range__inputs">
+											<span>от</span>
+											<input data-range-from="0" value="100" type="text" class="main-range__input">
+											<span>до</span>
+											<input data-range-to="5000" value="1000" type="text" class="main-range__input">
+										</div>
+										<div data-range-item class="main-range__item"></div>
+									</div>
+								</div>
+
+
+							</div>
+							<div class="main-filter__spollers">
+								<div class="main-filter__item">
+									<div class="main-filter__label  _label">
+										Габариты
+									</div>
+									<select class="main-filter__select _select">
+										<option value="1" class="main-filter__option">Не имеет значение</option>
+										<option value="2" class="main-filter__option">Не имеет значение</option>
+										<option value="3" class="main-filter__option">Не имеет значение</option>
+										<option value="4" class="main-filter__option">Не имеет значение</option>
+
+									</select>
+								</div>
+								<div class="main-filter__item">
+									<div class="main-filter__label  _label">
+										Этажность
+									</div>
+									<select class="main-filter__select _select">
+										<option value="1" class="main-filter__option">Не имеет значение</option>
+										<option value="2" class="main-filter__option">Не имеет значение</option>
+										<option value="3" class="main-filter__option">Не имеет значение</option>
+										<option value="4" class="main-filter__option">Не имеет значение</option>
+
+									</select>
+								</div>
+								<div class="main-filter__item">
+									<div class="main-filter__label  _label">
+										Форма здания
+									</div>
+									<select class="main-filter__select _select">
+										<option value="1" class="main-filter__option">Не имеет значение</option>
+										<option value="2" class="main-filter__option">Не имеет значение</option>
+										<option value="3" class="main-filter__option">Не имеет значение</option>
+										<option value="4" class="main-filter__option">Не имеет значение</option>
+
+									</select>
+								</div>
+								<div class="main-filter__item">
+									<div class="main-filter__label  _label">
+										Форма крыши
+									</div>
+									<select class="main-filter__select _select">
+										<option value="1" class="main-filter__option">Не имеет значение</option>
+										<option value="2" class="main-filter__option">Не имеет значение</option>
+										<option value="3" class="main-filter__option">Не имеет значение</option>
+										<option value="4" class="main-filter__option">Не имеет значение</option>
+
+									</select>
+								</div>
+
+							</div>
+						</div>
+						<div class="main-filter__footer">
+							<a href="#" class="main-filter__button _btn-green">
+								Подобрать
+							</a>
+							<a href="search.html" class="filter-main__advanced">
+								<div class="filter-main__advanced-icon">
+									<span></span>
+								</div>
+								<div class="filter-main__text">
+									Расширенный поиск
+								</div>
+							</a>
+						</div>
+					</div>
+				</section>
+				<section class="page__main-products main-products">
+					<div class='main-products__container _container'>
+						<div class="main-products__body">
+							<div class="main-products__columns">
+								<article class="main-products__column">
+									<div class="main-products__item item-main-products">
+										<div class="item-main-products__actions _actions">
+											<a href="#" class="item-main-products__action _icon-exchange _action"></a>
+											<a href="#" class="item-main-products__action _icon-heart _action"></a>
+										</div>
+										<div class="item-main-products__image _ibg">
+											<picture><source srcset="img/main-products/01.webp" type="image/webp"><img src="img/main-products/01.png" alt="image"></picture>
+										</div>
+										<div class="item-main-products__body">
+											<h2 class="item-main-products__title _sub-title">
+												Glass House 25A
+											</h2>
+											<div class="item-main-products__hidden">
+												<ul class="item-main-products__list">
+													<li class="item-main-products__point">Тип: Баня</li>
+													<li class="item-main-products__point">Технология: Клееный брус</li>
+													<li class="item-main-products__point">Габариты: 100х100х100 </li>
+												</ul>
+												<div class="item-main-products__price">
+													1 000 000 ₽
+												</div>
+											</div>
+										</div>
+									</div>
+								</article>
+								<article class="main-products__column">
+									<div class="main-products__item item-main-products">
+										<div class="item-main-products__actions _actions">
+											<a href="#" class="item-main-products__action _icon-exchange _action"></a>
+											<a href="#" class="item-main-products__action _icon-heart _action"></a>
+										</div>
+										<div class="item-main-products__image _ibg">
+											<picture><source srcset="img/main-products/01.webp" type="image/webp"><img src="img/main-products/01.png" alt="image"></picture>
+										</div>
+										<div class="item-main-products__body">
+											<h2 class="item-main-products__title _sub-title">
+												Glass House 25A
+											</h2>
+											<div class="item-main-products__hidden">
+												<ul class="item-main-products__list">
+													<li class="item-main-products__point">Тип: Баня</li>
+													<li class="item-main-products__point">Технология: Клееный брус</li>
+													<li class="item-main-products__point">Габариты: 100х100х100 </li>
+												</ul>
+												<div class="item-main-products__price">
+													1 000 000 ₽
+												</div>
+											</div>
+										</div>
+									</div>
+								</article>
+							</div>
+							<div class="main-products__control control">
+								<div class="control__body">
+									<a href="#" class="control__link _icon-arrow-short-left control__link_arrow">
+
+									</a>
+									<a href="#" class="control__link _active">
+										1
+									</a>
+									<a href="#" class="control__link">
+										2
+									</a>
+									<a href="#" class="control__link">
+										3
+									</a>
+									<a href="#" class="control__link">
+										4
+									</a>
+									<a href="#" class="control__link">
+										5
+									</a>
+									<a href="#" class="control__link">
+										...
+									</a>
+									<a href="#" class="control__link">
+										15
+									</a>
+									<a href="#" class="control__link _icon-arrow-short-right control__link_arrow">
+
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="page__main-form main-form">
+	<div class='main-form__container _container'>
+		<div class="main-form__body">
+			<form action="#" method="post" class="main-form__form form-main">
+	<div class="form-main__body">
+		<div class="form-main__input _gray-input _flying-input">
+			<input type="text" autocomplete="off" required class="form-main__field">
+			<label class="main-form__label">
+				Имя
+			</label>
+		</div>
+		<div class="form-main__input _gray-input _flying-input">
+			<input type="text" autocomplete="off" validation required class="form-main__field">
+			<label class="main-form__label">
+				Электронная почта
+			</label>
+		</div>
+		<div class="form-main__input _gray-input _flying-input">
+			<input type="tel" autocomplete="off" required class="form-main__field">
+			<label class="main-form__label">
+				Телефон
+			</label>
+		</div>
+		<div class="form-main__input _gray-input">
+			<textarea placeholder="Сообщение" maxlength="300" style="resize: none; appearance: none;" type="text"
+				autocomplete="off" class="form-main__field"></textarea>
+		</div>
+		<div class="form-main__files files-form">
+			<input type="file" class="files-form__input">
+			<span class="plus-icon files-form__icon">
+				<span class="filter"></span>
+				<span class="filter"></span>
+			</span>
+			<div class="files-form__text">
+				Прикрепить файлы
+			</div>
+		</div>
+		<button type="submit" class="form-main__button _btn-green">
+			Отправить
+		</button>
+		<div class="form-main__icons">
+			<a href="#" class="form-main__icon _icon-telegram"></a>
+			<a href="#" class="form-main__icon _icon-whatsapp"></a>
+			<a href="#" class="form-main__icon _icon-viber"></a>
+		</div>
+	</div>
+</form>
+			<div class="main-form__block">
+				<h2 class="main-form__title _main-title">
+					Расчёт стоимости по вашему проекту
+				</h2>
+				<div class="main-form__text">
+					<p>Мы считаем большим заблуждением, когда клиенты выбирают архитектурную студию по стоимости
+						проектирования. В частном жилом строительстве есть правило: стоимость проекта составляет 5-10% от
+						стоимости его реализации.</p>
+					<p>Не откладывайте с реализацией своих задумок, обращайтесь прямо сейчас!</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+			</main>
+			
+			<footer class="footer">
+	<div class='footer__container _container'>
+		<div class="footer__body">
+			<div class="footer__info info-footer">
+				<a href="#" class="info-footer__logo"><img src="img/logo-alt.svg" alt="logo"></a>
+				<ul class="info-footer__list">
+					<li class="info-footer__item">
+						ООО «Основа»
+					</li>
+					<li class="info-footer__item">
+						ИНН: 7814791026
+					</li>
+					<li class="info-footer__item">
+						ОГРН: 1217800076240
+					</li>
+					<li class="info-footer__item">
+						Сервис DOMOSBOR
+					</li>
+				</ul>
+			</div>
+			<nav class="footer__menu menu-footer">
+				<div data-spollers="1024,max" class="menu-footer__body">
+					<div class="menu-footer__block">
+						<h2 data-spoller class="menu-footer__label _icon-arrow-short-down">Типы строений</h2>
+						<ul class="menu-footer__list">
+							<li class="menu-footer__item"><a href="homes.html" class="menu-footer__link">
+									Дома
+								</a></li>
+							<li class="menu-footer__item"><a href="bathhouse.html" class="menu-footer__link">
+									Бани
+								</a></li>
+							<li class="menu-footer__item"><a href="garage.html" class="menu-footer__link">
+									Гаражи
+								</a></li>
+							<li class="menu-footer__item"><a href="canopy.html" class="menu-footer__link">
+									Навесы
+								</a></li>
+							<li class="menu-footer__item"><a href="objects.html" class="menu-footer__link">
+									Коммерческие объекты
+								</a></li>
+						</ul>
+					</div>
+					<div class="menu-footer__block">
+						<h2 data-spoller class="menu-footer__label _icon-arrow-short-down">Сервис</h2>
+						<ul class="menu-footer__list">
+							<li class="menu-footer__item"><a href="service.html" class="menu-footer__link">
+									О сервисе
+								</a></li>
+							<li class="menu-footer__item"><a href="gallery.html" class="menu-footer__link">
+									Галерея
+								</a></li>
+							<li class="menu-footer__item"><a href="blog.html" class="menu-footer__link">
+									Блог
+								</a></li>
+							<li class="menu-footer__item"><a href="reviews.html" class="menu-footer__link">
+									Отзывы
+								</a></li>
+							<li class="menu-footer__item"><a href="service.html" class="menu-footer__link">
+									Услуги
+								</a></li>
+						</ul>
+					</div>
+					<div class="menu-footer__block">
+						<h2 data-spoller class="menu-footer__label _icon-arrow-short-down">Информация</h2>
+						<ul class="menu-footer__list">
+							<li class="menu-footer__item"><a href="pay.html" class="menu-footer__link">
+									Оплата
+								</a></li>
+							<li class="menu-footer__item"><a href="documents.html" class="menu-footer__link">
+									Документы
+								</a></li>
+							<li class="menu-footer__item"><a href="blog.html" class="menu-footer__link">
+									Контакты
+								</a></li>
+							<li class="menu-footer__item"><a href="collaboration.html" class="menu-footer__link">
+									Сотрудничество
+								</a></li>
+
+						</ul>
+					</div>
+					<div class="menu-footer__block">
+						<h2 data-spoller class="menu-footer__label _icon-arrow-short-down">Партнеры сервиса</h2>
+						<ul class="menu-footer__list">
+							<li class="menu-footer__item"><a href="architects.html" class="menu-footer__link">
+									Архитекторы
+								</a></li>
+							<li class="menu-footer__item"><a href="design.html" class="menu-footer__link">
+									Дизайнеры
+								</a></li>
+							<li class="menu-footer__item"><a href="factories.html" class="menu-footer__link">
+									Заводы
+								</a></li>
+
+
+						</ul>
+					</div>
+				</div>
+			</nav>
+			<div data-da=".footer__body,1024,1" class="footer__block block-footer">
+				<div class="block-footer__labels">
+					<h2 class="block-footer__label">DOMOSBOR - Магазин</h2>
+					<h2 class="block-footer__label">DOMOSBOR - Форум</h2>
+				</div>
+				<div class="block-footer__contacts">
+					<div class="block-footer__call">
+						<a href="8 800 301-50-51" class="block-footer__call-text">8 (800) 301-50-51</a>
+						<a href="#" class="block-footer__call-link call">Заказать обратный звонок</a>
+					</div>
+					<a href="#" class="block-footer__mail">
+						info@domosbor.ru
+					</a>
+					<ul class="block-footer__list">
+						<li class="block-footer__item">
+							Санкт-Петербург,
+						</li>
+						<li class="block-footer__item">
+							Московский пр. 212,
+						</li>
+						<li class="block-footer__item">
+							офис 3035
+						</li>
+					</ul>
+				</div>
+
+			</div>
+		</div>
+		<div class="footer__icons">
+			<a href="#" class="footer__icon _icon-yandex">
+
+			</a>
+			<a href="#" class="footer__icon _icon-viber">
+
+			</a>
+			<a href="#" class="footer__icon _icon-whatsapp">
+
+			</a>
+			<a href="#" class="footer__icon _icon-app-store">
+
+			</a>
+			<a href="#" class="footer__icon _icon-google-alt">
+
+			</a>
+			<a href="#" class="footer__icon _icon-apple">
+
+			</a>
+			<a href="#" class="footer__icon _icon-apps">
+
+			</a>
+			<a href="#" class="footer__icon _icon-asana">
+
+			</a>
+		</div>
+		<div class="footer__rules rules-footer">
+			<div class="rules-footer__text">
+				<span> Политика конфиденциальности</span>
+				<span>© 2022 «DOMOSBOR». Все права защищены.</span>
+			</div>
+		</div>
+	</div>
+</footer>
+		</div>
+
+	</div>
+	<!---<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js?_v=20230613225033"></script>-->
+	<script src="js/app.min.js?_v=20230613225033"></script>
+</body>
+
+</html>
